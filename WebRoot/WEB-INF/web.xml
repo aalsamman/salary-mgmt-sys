@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>addSalaryItemServlet</servlet-name>
+		<servlet-class>diverse.action.addSalaryItemServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>QuerySalaryItemsServlet</servlet-name>
+		<servlet-class>diverse.action.QuerySalaryItemsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ManageSalaryItemsServlet</servlet-name>
+		<servlet-class>diverse.action.ManageSalaryItemsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>deleteSalaryItemServlet</servlet-name>
+		<servlet-class>diverse.action.deleteSalaryItemServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>queryDepartmentsServlet</servlet-name>
+		<servlet-class>diverse.action.queryDepartmentsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>queryFixedSalaryItemsServlet</servlet-name>
+		<servlet-class>diverse.action.queryFixedSalaryItemsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>modifySalaryItemServlet</servlet-name>
+		<servlet-class>diverse.action.modifySalaryItemServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>modifySalaryValueServlet</servlet-name>
+		<servlet-class>diverse.action.modifySalaryValueServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>modifyItemValuesServlet</servlet-name>
+		<servlet-class>diverse.action.modifyItemValuesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>queryImportedSalaryItemsServlet</servlet-name>
+		<servlet-class>diverse.action.queryImportedSalaryItemsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>calculateSalaryServlet</servlet-name>
+		<servlet-class>diverse.action.calculateSalaryServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>payServlet</servlet-name>
+		<servlet-class>diverse.action.payServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>saveServlet</servlet-name>
+		<servlet-class>diverse.action.saveServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>queryDepartmentsSalaryServlet</servlet-name>
+		<servlet-class>diverse.action.queryDepartmentsSalaryServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>loginServlet</servlet-name>
+		<servlet-class>diverse.action.loginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>diverse.action.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>queryLogServlet</servlet-name>
+		<servlet-class>diverse.action.queryLogServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>exportServlet</servlet-name>
+		<servlet-class>diverse.action.exportServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>queryDepartmentsLogServlet</servlet-name>
+		<servlet-class>diverse.action.queryDepartmentsLogServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>calculateSalaryServlet2</servlet-name>
+		<servlet-class>diverse.action.calculateSalaryServlet2</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>addSalaryItemServlet</servlet-name>
+		<url-pattern>/servlet/addSalaryItemServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>QuerySalaryItemsServlet</servlet-name>
+		<url-pattern>/servlet/QuerySalaryItemsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManageSalaryItemsServlet</servlet-name>
+		<url-pattern>/servlet/ManageSalaryItemsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deleteSalaryItemServlet</servlet-name>
+		<url-pattern>/servlet/deleteSalaryItemServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>queryDepartmentsServlet</servlet-name>
+		<url-pattern>/servlet/queryDepartmentsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>queryFixedSalaryItemsServlet</servlet-name>
+		<url-pattern>/servlet/queryFixedSalaryItemsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>modifySalaryItemServlet</servlet-name>
+		<url-pattern>/servlet/modifySalaryItemServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>modifySalaryValueServlet</servlet-name>
+		<url-pattern>/servlet/modifySalaryValueServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>modifyItemValuesServlet</servlet-name>
+		<url-pattern>/servlet/modifyItemValuesServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>queryImportedSalaryItemsServlet</servlet-name>
+		<url-pattern>/servlet/queryImportedSalaryItemsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>calculateSalaryServlet</servlet-name>
+		<url-pattern>/servlet/calculateSalaryServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>payServlet</servlet-name>
+		<url-pattern>/servlet/payServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>saveServlet</servlet-name>
+		<url-pattern>/servlet/saveServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>queryDepartmentsSalaryServlet</servlet-name>
+		<url-pattern>/servlet/queryDepartmentsSalaryServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>loginServlet</servlet-name>
+		<url-pattern>/servlet/loginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/servlet/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>queryLogServlet</servlet-name>
+		<url-pattern>/servlet/queryLogServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>exportServlet</servlet-name>
+		<url-pattern>/servlet/exportServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>queryDepartmentsLogServlet</servlet-name>
+		<url-pattern>/servlet/queryDepartmentsLogServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>calculateSalaryServlet2</servlet-name>
+		<url-pattern>/servlet/calculateSalaryServlet2</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!--<filter>
+		<filter-name>RequestLoggingFilter</filter-name>
+		<filter-class>diverse.action.RequestLoggingFilter</filter-class>
+	</filter>
+	<filter>
+		<filter-name>AuthenticationFilter</filter-name>
+		<filter-class>diverse.action.AuthenticationFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>RequestLoggingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>AuthenticationFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+--></web-app>
