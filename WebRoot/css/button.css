@@ -1,0 +1,24 @@
+.button{
+background-color: #3498db;
+/*#008dde;#c0392b;*/
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 150px;
+-webkit-appearance:none;
+}
+
+.button:hover{
+background:#666;
+}
+
+.button:disabled
+{
+   background:#666;
+}
